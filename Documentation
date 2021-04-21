@@ -1,0 +1,9 @@
+this python program handling a problem in the DXF files (DXF files is a 2D CAD files). 
+that files have something called bend notes to told the bend machines which angle 
+and direction of bending of each line have to be bended in the file.
+the bend notes in those DXF files produced from the CAD programs are not readable for the bend machines. 
+and have to be edited in specific form to be readable for the bend machine.
+The Mechanical Engineers (and I am one of them) in the company where I was working were have to open each file 
+on a CAD program like AutoCAD and edit each bend note in the DXF file. That was time consuming process and consume efforts too. 
+For that I have created that python program to open all DXF files in the source folder and edit the pend notes inside 
+it and save the edited new DXF files in the destination folder automatically. And that’s save time and efforts.
